@@ -1,0 +1,56 @@
+#carousel img {
+    height: 75vh;
+    object-fit: scale-down;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body > div:nth-child(2) {
+    flex: 1;
+}
+
+.footer nav a:not(:first-child) {
+    border-left: 1px solid #fff;
+}
+
+.contato-header {
+    font-size: 4vw;
+}
+
+.bg-dark:not(.slide) {
+    background-color: #05445E !important;
+}
+
+.bg-primary {
+    background-color: #189AB4 !important;
+}
+
+.text-primary {
+    color: #189AB4 !important;
+}
+
+img.logo {
+    max-width: 15em;
+    border-radius: 50%;
+    box-shadow: #000 0 0 10px 3px;
+}
+
+nav a.bg-dark:hover {
+    background-color: #68BBE3 !important;
+}
+
+.header-bg {
+    background-image: url('images/bg.jpg');
+    background-size: 25%;
+    height: 35%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    filter: opacity(0.5);
+}
